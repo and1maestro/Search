@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-links">
+                <a href="index.html">Google Search</a>
+            </div>
+        </header>
+        <div class="advanced-search-container">
+            <form action="https://www.google.com/search" method="get">
+                <label>Знайти сторінки, що містять...</label>
+                <div class="whitespace"></div>
+                <label>Як це зробити в полі пошуку</label>
+                <div class="form-group">
+                    <label>Усі ці слова:</label>
+                    <input type="text" name="as_q">
+                    <div class="clarification">
+                        Введіть важливі слова: <span class="monospace">триколірний рет-тер’єр</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Точне слово або фразу::</label>
+                    <input type="text" name="as_epq">
+                    <div class="clarification">
+                        Візьміть точні слова в лапки: <span class="monospace">"рет-тер’єр"</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Будь-яке з цих слів: </label>
+                    <input type="text" name="as_oq">
+                    <div class="clarification">
+                        Введіть OR між усіма потрібними словами: <span class="monospace">мініатюрні OR стандартні</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Жодне з цих слів:</label>
+                    <input type="text" name="as_eq">
+                    <div class="clarification">
+                        Поставте знак мінус перед небажаними словами: <span class="monospace">-гризун, -"Джек Рассел"</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label></label>
+                    <div class="right-align">
+                        <input type="submit" class="blue-button" value="Розширений пошук">
+                    </div>
+                </div>
+            </form>
+        </div>
+        </div>
+    </body>
+</html>
